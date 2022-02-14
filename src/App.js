@@ -1,25 +1,40 @@
-import logo from './logo.svg';
-import './App.css';
+import React, { Component } from 'react'
+import Content from './components/main'
+import Header from './components/header'
+import Skill from './components/skill'
+import Certificate from './components/certif'
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+export default class App extends Component {
+  footer = {
+    padding: '1em',
+    marginTop: '1em',
+    textAlign: 'center',
+    background: 'black'
+  }
+  render() {
+    return (
+      <>
+        <header>
+          <Header />
+        </header>
+        <section>
+          <Content />
+        </section>
+        <hr style={{width: '80%'}}/>
+        <section>
+          <Skill />
+        </section>
+        <hr style={{width: '80%'}}/>
+        <section>
+          <Certificate />
+        </section>
+        <section>
+          <footer 
+            style={this.footer}>
+            <h1>&copy;Mahfudh Afandi (2022)</h1>
+          </footer>
+        </section>
+      </>
+    )
+  }
 }
-
-export default App;
