@@ -40,7 +40,7 @@ export class Experience extends Component {
               </h4>
               <Timeline>January 2022 - March 2022</Timeline>
               <p style={{ marginTop: '1em', marginBottom: '0' }}>
-                Membuat aplikasi web berupa sistem Rest API POS (Point Of Sales). Menggunakan NodeJS dan ExpressJS pada backend, serta mongoDB pada database
+                Membuat aplikasi web berupa sistem Rest API POS (Point Of Sales). Menggunakan NodeJS dan ExpressJS pada backend, serta mongoDB sebagai databasenya.
               </p>
               <p style={{ marginTop: '5px', marginBottom: '1em' }}>
                 Link Project : <Link href="https://github.com/afandi154/eduwork-pos-server">Github</Link>
