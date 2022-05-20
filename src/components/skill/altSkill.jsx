@@ -5,16 +5,16 @@ export default class AltSkill extends Component {
   render() {
     return (
       <div>
-        <h2>Other Skills</h2>
+        <h2>Programming Skills</h2>
         <WordContainer>
-        <ul style={{paddingLeft: '1em'}}>
-          <li>Art / Drawing (Beginner)</li>
-          <li>Color Theory (Beginner)</li>
-          <li>Data Structure (Beginner)</li>
-          <li>Electrical Engineering (Beginner)</li>
-          <li>English Language (Intermidiate)</li>
-          <li>Japanese Language (Beginner)</li>
-        </ul>
+          <ul style={{ paddingLeft: '1em' }}>
+            <li>HTML & CSS (Intermidiate)</li>
+            <li>Javascript (Intermidiate)</li>
+            <li>ReactJS (Intermidiate)</li>
+            <li>NodeJS (Beginner)</li>
+            <li>PHP & MySQL (Beginner)</li>
+            <li>ExpressJS & MongoDB (Beginner)</li>
+          </ul>
         </WordContainer>
       </div>
     )

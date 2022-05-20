@@ -3,6 +3,7 @@ import Content from './components/main'
 import Header from './components/header'
 import Skill from './components/skill'
 import Certificate from './components/certif'
+import Experience from './components/exp'
 
 export default class App extends Component {
   footer = {
@@ -20,16 +21,20 @@ export default class App extends Component {
         <section>
           <Content />
         </section>
-        <hr style={{width: '80%'}}/>
+        <hr style={{ width: '80%' }} />
         <section>
           <Skill />
         </section>
-        <hr style={{width: '80%'}}/>
+        <hr style={{ width: '80%' }} />
+        <section>
+          <Experience />
+        </section>
+        <hr style={{ width: '80%' }} />
         <section>
           <Certificate />
         </section>
         <section>
-          <footer 
+          <footer
             style={this.footer}>
             <h1>&copy;Mahfudh Afandi (2022)</h1>
           </footer>

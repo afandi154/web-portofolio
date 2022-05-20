@@ -29,7 +29,10 @@ export const ContainerDetail = styled.div`
     width: 50%;
   }
   @media(max-width: 930px){
-    display: none;
+    margin-top: 2em;
+    margin-left: 0;
+    box-sizing: border-box;
+    width: 100%;
   }
 `
 export const List = styled.ul`
